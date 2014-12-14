@@ -1,0 +1,44 @@
+					  WildHawk
+
+______________________________________________________________________________________________
+
+Welcome to Ayush-1.0 	           Open Source Software		The LNMIIT Jaipur
+
+Designed by: Manoj Alwani
+
+Guided by:   Gaurav Somani
+______________________________________________________________________________________________
+
+					User's Manual
+_______________________________________________________________________________________________
+
+1. The WildHawk-1.0 package consist of 5 files, make sure all files are there, put them all in 
+   our home directory or first change your directory where you put these files using cd command.
+  i.  ayush.c
+ ii.  rx.c
+iii.  updates.txt
+ iv.  architecture
+  v.  help
+
+2. Plug your receiver hardware to USB port this should create a file named ttyACM0 in /dev directory.
+3. Make sure you have permission to read ttyACM0 file, if not use "chmod 777 /dev/ttyACM0" command.
+4. Now compile and run rx.c either in background or in another terminal.
+5. Now compile and run ayush.c follow instructions carefully.
+6. "Advanced Mode" hides system details from the user however "Command Prompt Mode" lets user know the 
+    actual process.(Prefer Command Prompt Mode if you are developer or student.)
+
+				Control Panel Commands
+
+1.Update Records	  - Lets you update your database(if any)
+2.List Existing Records	  - Lets you see the current database.
+3.Modify Existing Records - Lets you modify the records.
+4.Delete Records	  - Lets you delete records one by one.
+5.Open Help Manual	  - Opens this help manual.
+6.Open System Architecture- Shows the Ayush Architecture.
+0.EXIT			  - Exits from the System securing all data.
+
+ 
+
+
+
+
